@@ -13,13 +13,13 @@ class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen> {
   bool _onFavorites = false;
 
   void onPressedFav() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(_onFavorites
-            ? "Quitaste de Favoritos"
-            : "Agregaste a tus Favoritos"),
-      ),
-    );
+    // ScaffoldMessenger.of(context).showSnackBar(
+    //   SnackBar(
+    //     content: Text(_onFavorites
+    //         ? "Quitaste de Favoritos"
+    //         : "Agregaste a tus Favoritos"),
+    //   ),
+    // );
 
     setState(() {
       _onFavorites = !_onFavorites;

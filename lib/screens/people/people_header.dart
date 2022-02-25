@@ -13,7 +13,7 @@ class PeopleHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     final topHeader = Container(
       margin: const EdgeInsets.only(
-        top: 35.0,
+        top: 55.0,
         left: 5.0,
         right: 15.0,
       ),

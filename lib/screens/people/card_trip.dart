@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
 import 'package:trips_app/components/floating_action_button_green.dart';
 
 class CardTrip extends StatelessWidget {
@@ -16,7 +15,7 @@ class CardTrip extends StatelessWidget {
     final screenWidth = MediaQuery.of(context).size.width;
 
     final cardImage = Container(
-      height: 205.0,
+      height: 240.0,
       margin: const EdgeInsets.only(
         bottom: 80.0,
       ),
@@ -40,7 +39,7 @@ class CardTrip extends StatelessWidget {
     final placeText = Container(
       margin: const EdgeInsets.only(
         left: 20.0,
-        top: 20.0,
+        top: 15.0,
         right: 20.0,
       ),
       child: Text(

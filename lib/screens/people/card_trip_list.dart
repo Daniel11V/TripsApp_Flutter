@@ -7,10 +7,10 @@ class CardTripList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         margin: const EdgeInsets.only(
-          top: 255.0,
+          top: 275.0,
         ),
         child: ListView(
-          padding: const EdgeInsets.all(12.0),
+          padding: const EdgeInsets.all(15.0),
           children: [
             CardTrip("assets/img/river.jpeg"),
             CardTrip("assets/img/beach.jpeg"),
